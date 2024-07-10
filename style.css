@@ -62,18 +62,33 @@ body{
 .hobbys{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 12px;
+  font-size: 1.4rem;
 }
 .card-text {
   font-size: 14px;
 }
 
 .card-btn {
-  background-color: #f0f3c0; /* Color de fondo del botón */
   border: none;
   padding: 10px;
   text-align: center;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 5px; /* Bordes redondeados del botón */
+  width: 150px;
+  border-radius: 18px; /* Bordes redondeados del botón */
+}
+
+.btn-one{
+  background-color: #A53756;
+  color: white;
+}
+
+.btn-two{
+  background-color: white;
+  color: black;
+  border: 1px solid #8E8583;
 }
